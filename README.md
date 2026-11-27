@@ -14,6 +14,8 @@ Supporting material for "The agility-governance gap in software development meth
 | agpm_weight_sensitivity.py | Random-weight robustness analysis (10,000 Dirichlet draws, seed 2026) read from the anonymized workbook |
 | agpm_caps_sensitivity.py | Optional-element cap scenarios (Table 10), computed from the ratings and instruments/AGPM_caps_classification.csv; writes agpm_caps_scenarios.csv |
 | agpm_robustness.py | Median aggregation, exclusion of G1 and G4, and alternative quadrant thresholds (2.75, 2.5, 3.25, 3.5) with bootstrap stability; writes agpm_robustness_scenarios.csv and agpm_threshold_stability.csv |
+| agpm_kibo_exclusion.py | Sensitivity analysis excluding KIBO (the authors' own method) from the comparative set, with the exact Wilcoxon test, the X-Y correlation, quadrant counts and ranking agreement; writes agpm_kibo_exclusion.csv |
+| agpm_kibo_exclusion.csv | Output of agpm_kibo_exclusion.py |
 | agpm_caps_scenarios.csv | Output of agpm_caps_sensitivity.py |
 | AGPM_academic_background_summary.csv | Aggregate frequencies of self-reported academic background by group (Table 5). Not in the participant tab, to limit disclosure risk |
 | Supplementary_Table_S1_criterion_level.csv | Criterion-level agreement statistics (Supplementary Table S1 of the manuscript) |
@@ -34,6 +36,7 @@ python agpm_weight_sensitivity.py AGPM_dataset_anonymized.xlsx
 python agpm_reliability.py AGPM_dataset_anonymized.xlsx
 python agpm_caps_sensitivity.py AGPM_dataset_anonymized.xlsx
 python agpm_robustness.py AGPM_dataset_anonymized.xlsx
+python agpm_kibo_exclusion.py AGPM_dataset_anonymized.xlsx
 ```
 
 All scripts were run in a clean environment with the library versions pinned in requirements.txt (pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, openpyxl 3.1.5).
@@ -52,7 +55,7 @@ Expected primary results: mean X 3.4109, mean Y 2.6649, mean gap -0.7459 (conven
 
 ## Reproducibility coverage
 
-Reproduced from this package: X, Y, GABS, ranks, quadrants, Wilcoxon and Spearman tests, panel-level and criterion-level alpha and ICC, pairwise agreement, bootstrap intervals and quadrant probabilities, split-half and leave-one-rater-out stability, random and extreme criterion weights, and the optional-element cap scenarios, median aggregation, the exclusion of G1 and G4, and the alternative quadrant thresholds.
+Reproduced from this package: X, Y, GABS, ranks, quadrants, Wilcoxon and Spearman tests, panel-level and criterion-level alpha and ICC, pairwise agreement, bootstrap intervals and quadrant probabilities, split-half and leave-one-rater-out stability, random and extreme criterion weights, and the optional-element cap scenarios, median aggregation, the exclusion of G1 and G4, the alternative quadrant thresholds, and the exclusion of KIBO from the comparative set.
 Still requiring the original rating workbook (Code.gs reads a private tab with emails): the exploratory governance-expertise comparison, which is not reproducible from the public dataset because the participant attributes needed to identify the specialist subgroup are withheld to protect confidentiality.
 The threshold stability counts of agpm_robustness.py match the manuscript (18, 18, 16 and 16 methods at 90 percent or more at 3.0, 2.75, 2.5 and 3.5). At 3.25 the script finds 15 where Code.gs gives 16, because PRINCE2 Agile lies on the 90 percent line (89.8 to 90.0 percent depending on the random generator).
 
