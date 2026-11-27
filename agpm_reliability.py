@@ -123,9 +123,11 @@ for _ in range(1000):
         p = list(rng.permutation(rs)); k = len(p) // 2; h1[g] = p[:k]; h2[g] = p[k:]
     rho.append(spearmanr(gabs(h1), gabs(h2))[0])
 print('\nSplit-half (1,000 random splits within group): mean rho %.3f, median %.3f, 5th percentile %.3f' % (np.mean(rho), np.median(rho), np.percentile(rho, 5)))
-loo = []
+loo = []; top_same = 0
+top3 = lambda v: set(np.array(methods)[np.argsort(-v)[:3]])
 for g, rs in raters.items():
     for r in rs:
         keep = {h: [x for x in v if not (h == g and x == r)] for h, v in raters.items()}
-        loo.append(spearmanr(full, gabs(keep))[0])
+        g2 = gabs(keep); loo.append(spearmanr(full, g2)[0]); top_same += top3(g2) == top3(full)
 print('Leave-one-rater-out: minimum rho %.3f (n = %d runs), mean %.3f' % (min(loo), len(loo), np.mean(loo)))
+print('Leave-one-rater-out: top three (%s) unchanged in %d of %d runs' % (', '.join(sorted(top3(full))), top_same, len(loo)))
