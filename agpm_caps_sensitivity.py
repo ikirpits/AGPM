@@ -14,11 +14,16 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else 'AGPM_dataset_anonymized.xlsx'
 CLS = sys.argv[2] if len(sys.argv) > 2 else 'instruments/AGPM_caps_classification.csv'
 L = pd.read_excel(SRC, 'Ratings_long'); C = pd.read_csv(CLS)
 cls = {(r.method, r.criterion): r.classification for r in C.itertuples()}
+# input validation: exactly one valid class for every rated method x G2..G5 cell
+assert not C.duplicated(['method', 'criterion']).any(), 'duplicate method-criterion rows in the classification file'
+assert set(C.classification) <= {'prescribed', 'optional', 'tailorable'}, 'invalid class in the classification file'
+need = set(zip(L.method, L.criterion)) ; need = {k for k in need if k[1] in ('G2', 'G3', 'G4', 'G5')}
+missing = need - set(cls); assert not missing, f'no classification for {sorted(missing)}'
 SCEN = [(3, 4), (2, 4), (2, 3), (3, 3), (2, 2)]   # (optional cap, tailorable cap)
 def run(co=None, ct=None):
     d = L.copy()
     if co is not None:
-        k = [cls.get((m, c), 'prescribed') for m, c in zip(d.method, d.criterion)]
+        k = [cls.get((m, c), 'prescribed') for m, c in zip(d.method, d.criterion)]  # G1 and A1-A5 are not classified
         cap = pd.Series([co if x == 'optional' else ct if x == 'tailorable' else 99 for x in k], index=d.index)
         d['score'] = np.minimum(d.score, cap)
     d['axis'] = d.criterion.str[0].map({'A': 'X', 'G': 'Y'})
@@ -30,7 +35,7 @@ for co, ct in [(None, None)] + SCEN:
     r = run(co, ct); q = quad(r)
     top3 = ', '.join(r.GABS.sort_values(ascending=False).index[:3])
     rows.append(dict(scenario='primary' if co is None else f'optional {co}, tailorable {ct}', meanX=round(r.X.mean(), 4),
-        meanY=round(r.Y.mean(), 4), gap=round(r.Y.mean() - r.X.mean(), 4), wilcoxon_exact_p=round(wilcoxon(r.Y, r.X).pvalue, 5),
+        meanY=round(r.Y.mean(), 4), gap=round(r.Y.mean() - r.X.mean(), 4), wilcoxon_exact_p=round(wilcoxon(r.Y, r.X, method='exact').pvalue, 5),
         spearman_vs_primary=round(spearmanr(base.GABS, r.GABS)[0], 3),
         quadrant_changes=int((q != qb).sum()), changed=', '.join(r.index[q != qb]), top3=top3))
 o = pd.DataFrame(rows); print(o.to_string(index=False)); o.to_csv('agpm_caps_scenarios.csv', index=False)

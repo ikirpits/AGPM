@@ -1,0 +1,6 @@
+threshold,methods_ge_90pct_stable,integrated_leaders,min_share_integrated_leaders
+3.0,18,5,0.9928
+2.75,18,7,0.7846
+2.5,16,9,0.7716
+3.25,15,4,0.8976
+3.5,16,1,0.9998

@@ -1,0 +1,5 @@
+scenario,spearman_vs_main,quadrant_changes,changed,top3
+Median instead of mean,0.937,5,"DAD, MSF, UP/RUP, V-Model, XP","DSDM, SAFe, DevOps"
+Excluding G1,0.994,1,UP/RUP,"SAFe, DevOps, KIBO"
+Excluding G4,0.982,1,MSF,"SAFe, DevOps, PRINCE2 Agile"
+Excluding G1 and G4,0.983,2,"MSF, Waterfall","DevOps, SAFe, PRINCE2 Agile"

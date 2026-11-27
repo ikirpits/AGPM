@@ -13,6 +13,7 @@ Supporting material for "The agility-governance gap in software development meth
 | Code.gs | Google Apps Script used in the rating workbook: bootstrap, split-half agreement, quadrant stability, sensitivity and bias tabs (seed 2026, 5,000 resamples) |
 | agpm_weight_sensitivity.py | Random-weight robustness analysis (10,000 Dirichlet draws, seed 2026) read from the anonymized workbook |
 | agpm_caps_sensitivity.py | Optional-element cap scenarios (Table 10), computed from the ratings and instruments/AGPM_caps_classification.csv; writes agpm_caps_scenarios.csv |
+| agpm_robustness.py | Median aggregation, exclusion of G1 and G4, and alternative quadrant thresholds (2.75, 2.5, 3.25, 3.5) with bootstrap stability; writes agpm_robustness_scenarios.csv and agpm_threshold_stability.csv |
 | agpm_caps_scenarios.csv | Output of agpm_caps_sensitivity.py |
 | AGPM_academic_background_summary.csv | Aggregate frequencies of self-reported academic background by group (Table 5). Not in the participant tab, to limit disclosure risk |
 | Supplementary_Table_S1_criterion_level.csv | Criterion-level agreement statistics (Supplementary Table S1 of the manuscript) |
@@ -32,9 +33,10 @@ python agpm_verify.py AGPM_dataset_anonymized.xlsx 2026
 python agpm_weight_sensitivity.py AGPM_dataset_anonymized.xlsx
 python agpm_reliability.py AGPM_dataset_anonymized.xlsx
 python agpm_caps_sensitivity.py AGPM_dataset_anonymized.xlsx
+python agpm_robustness.py AGPM_dataset_anonymized.xlsx
 ```
 
-Tested with Python 3.13 and the library versions pinned in requirements.txt (pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, openpyxl 3.1.5).
+All scripts were run in a clean environment with the library versions pinned in requirements.txt (pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, openpyxl 3.1.5).
 
 Expected primary results: mean X 3.4109, mean Y 2.6649, mean gap -0.7459 (convention: gap = Y - X, governance minus agility), Wilcoxon exact p = 0.00486 (W = 32), normal approximation p = 0.0064, Spearman rho = -0.0556 (p = 0.8158). SAFe ranks first (GABS 3.898), DevOps second, KIBO third. FDD (2.7777) ranks 10 and Kanban (2.7775) ranks 11, using unrounded GABS.
 
@@ -50,8 +52,9 @@ Expected primary results: mean X 3.4109, mean Y 2.6649, mean gap -0.7459 (conven
 
 ## Reproducibility coverage
 
-Reproduced from this package: X, Y, GABS, ranks, quadrants, Wilcoxon and Spearman tests, panel-level and criterion-level alpha and ICC, pairwise agreement, bootstrap intervals and quadrant probabilities, split-half and leave-one-rater-out stability, random and extreme criterion weights, and the optional-element cap scenarios.
-Still requiring the original rating workbook through Code.gs (which reads a private tab with emails): the alternative quadrant thresholds (2.75, 2.5, 3.25, 3.5), median aggregation, the exclusion of G1 and G4, and the comparison by governance expertise.
+Reproduced from this package: X, Y, GABS, ranks, quadrants, Wilcoxon and Spearman tests, panel-level and criterion-level alpha and ICC, pairwise agreement, bootstrap intervals and quadrant probabilities, split-half and leave-one-rater-out stability, random and extreme criterion weights, and the optional-element cap scenarios, median aggregation, the exclusion of G1 and G4, and the alternative quadrant thresholds.
+Still requiring the original rating workbook (Code.gs reads a private tab with emails): the comparison of the five governance-expert raters with their panels, which uses rater-level information that is not released.
+The threshold stability counts of agpm_robustness.py match the manuscript (18, 18, 16 and 16 methods at 90 percent or more at 3.0, 2.75, 2.5 and 3.5). At 3.25 the script finds 15 where Code.gs gives 16, because PRINCE2 Agile lies on the 90 percent line (89.8 to 90.0 percent depending on the random generator).
 
 ## Provenance
 
