@@ -1,0 +1,21 @@
+method,point_quadrant,X,Y,P(Integrated Leaders),P(Agile-First),P(Governance-Heavy),P(Baseline),P(point quadrant)
+ASD,Agile-First,3.307,2.0059,0.0,1.0,0.0,0.0,1.0
+AUP,Agile-First,3.4622,2.159,0.0,1.0,0.0,0.0,1.0
+Crystal,Agile-First,3.2133,1.9179,0.0,0.9998,0.0,0.0002,0.9998
+DAD,Agile-First,3.8178,2.8205,0.0282,0.9718,0.0,0.0,0.9718
+DSDM,Integrated Leaders,3.4756,3.4462,1.0,0.0,0.0,0.0,1.0
+DevOps,Integrated Leaders,4.5767,3.1941,0.9928,0.0072,0.0,0.0,0.9928
+FDD,Agile-First,3.1289,2.4974,0.0,0.9862,0.0,0.0138,0.9862
+KIBO,Integrated Leaders,3.7814,3.4118,1.0,0.0,0.0,0.0,1.0
+Kanban,Agile-First,4.1911,2.0769,0.0,1.0,0.0,0.0,1.0
+LeSS,Agile-First,3.8756,2.1026,0.0,1.0,0.0,0.0,1.0
+MSF,Baseline,2.6222,2.9436,0.0004,0.0,0.2138,0.7858,0.7858
+PRINCE2 Agile,Integrated Leaders,3.3442,3.4647,1.0,0.0,0.0,0.0,1.0
+SAFe,Integrated Leaders,3.7302,4.0824,1.0,0.0,0.0,0.0,1.0
+Scrum,Agile-First,3.9602,2.5519,0.0,1.0,0.0,0.0,1.0
+Scrumban,Agile-First,3.8698,1.6059,0.0,1.0,0.0,0.0,1.0
+Spiral,Agile-First,3.293,2.0706,0.0,0.9998,0.0,0.0002,0.9998
+UP/RUP,Governance-Heavy,2.9244,3.159,0.1672,0.0006,0.8298,0.0024,0.8298
+V-Model,Baseline,2.0465,2.7,0.0,0.0,0.0098,0.9902,0.9902
+Waterfall,Baseline,1.5183,2.5944,0.0,0.0,0.0,1.0,1.0
+XP,Agile-First,4.0791,2.4941,0.0,1.0,0.0,0.0,1.0

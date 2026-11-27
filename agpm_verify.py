@@ -1,6 +1,6 @@
 """Independent check of the AGPM bootstrap (Google Sheet, tab 3 Bootstrap).
-Usage: py -3.12 agpm_verify.py AGPM_dataset_anonymized.xlsx [seed]
-Re-computes GABS 95% limits and best/worst rank from the ratings (raters resampled with
+Usage: python agpm_verify.py AGPM_dataset_anonymized.xlsx [seed]
+Re-computes GABS 95% limits and lower and upper percentile rank (2.5th and 97.5th) from the ratings (raters resampled with
 replacement within each group, both sessions kept together, 5,000 resamples) and prints the
 difference from the values in the Sheet (SHEET below, taken from tabs 3 and 4 after the recalculation of 25/11/2026 (Code.gs, seed 2026)).
 Differences of a few thousandths are expected: the random number generators differ."""
@@ -77,16 +77,38 @@ def xy_from(W):  # W: dict g -> weights per rater
 ones={g:np.ones(grp[g].shape[0]) for g in grp}
 X0,Y0=xy_from(ones); G0=2*X0*Y0/(X0+Y0)
 rng=np.random.default_rng(int(sys.argv[2]) if len(sys.argv)>2 else 1)
-B=5000; GB=np.zeros((B,20)); RK=np.zeros((B,20))
+B=5000; GB=np.zeros((B,20)); RK=np.zeros((B,20)); XB=np.zeros((B,20)); YB=np.zeros((B,20))
 for b in range(B):
     W={g:np.bincount(rng.integers(0,n,n),minlength=n).astype(float) for g,n in ((g,grp[g].shape[0]) for g in grp)}
-    X,Y=xy_from(W); GB[b]=2*X*Y/(X+Y); RK[b]=rankdata(-GB[b],method='average')
+    X,Y=xy_from(W); XB[b]=X; YB[b]=Y; GB[b]=2*X*Y/(X+Y); RK[b]=rankdata(-GB[b],method='average')
 gl,gh=np.percentile(GB,[2.5,97.5],axis=0); rl,rh=np.percentile(RK,[2.5,97.5],axis=0)
 rows=[]
 for m in methods:
     i=mi[m]; v=V[m]
     rows.append((m,round(G0[i],3),round(gl[i],3),v['gl'],round(gh[i],3),v['gh'],round(rl[i]),v['rf'],round(rh[i]),v['rt']))
-df=pd.DataFrame(rows,columns=['method','GABS','py_lo','sheet_lo','py_hi','sheet_hi','py_rbest','sheet_rbest','py_rworst','sheet_rworst'])
+df=pd.DataFrame(rows,columns=['method','GABS','py_lo','sheet_lo','py_hi','sheet_hi','py_rlo','sheet_rlo','py_rhi','sheet_rhi'])
 df['d_lo']=(df.py_lo-df.sheet_lo).round(3); df['d_hi']=(df.py_hi-df.sheet_hi).round(3)
-print(df.to_string()); print('max |d| lo/hi',df.d_lo.abs().max(),df.d_hi.abs().max(),'rank mismatches',(df.py_rbest!=df.sheet_rbest).sum(),(df.py_rworst!=df.sheet_rworst).sum())
+print(df.to_string()); print('max |d| lo/hi',df.d_lo.abs().max(),df.d_hi.abs().max(),'rank mismatches',(df.py_rlo!=df.sheet_rlo).sum(),(df.py_rhi!=df.sheet_rhi).sum())
 
+
+# X and Y intervals (2.5th and 97.5th percentiles) compared with the Sheet values
+xl,xh=np.percentile(XB,[2.5,97.5],axis=0); yl,yh=np.percentile(YB,[2.5,97.5],axis=0)
+rows=[]
+for m in methods:
+    i=mi[m]; v=V[m]
+    rows.append((m,round(xl[i],3),v['xl'],round(xh[i],3),v['xh'],round(yl[i],3),v['yl'],round(yh[i],3),v['yh']))
+dx=pd.DataFrame(rows,columns=['method','py_Xlo','sheet_Xlo','py_Xhi','sheet_Xhi','py_Ylo','sheet_Ylo','py_Yhi','sheet_Yhi'])
+for a,b in (('Xlo','Xlo'),('Xhi','Xhi'),('Ylo','Ylo'),('Yhi','Yhi')): dx['d_'+a]=(dx['py_'+a]-dx['sheet_'+b]).round(3)
+print(); print(dx.to_string())
+print('max |d| X lo/hi',dx.d_Xlo.abs().max(),dx.d_Xhi.abs().max(),'Y lo/hi',dx.d_Ylo.abs().max(),dx.d_Yhi.abs().max())
+# Quadrant probabilities over the same resamples (threshold 3.0 on both axes, as in the manuscript)
+def quad(x,y):
+    return np.where((x>=3)&(np.round(y,9)>=3),'Integrated Leaders',np.where(x>=3,'Agile-First',np.where(np.round(y,9)>=3,'Governance-Heavy','Baseline')))
+Q=quad(XB,YB); names=['Integrated Leaders','Agile-First','Governance-Heavy','Baseline']
+base=quad(X0,Y0)
+qp=pd.DataFrame({'method':methods,'point_quadrant':[base[mi[m]] for m in methods],'X':X0.round(4),'Y':Y0.round(4)})
+for q in names: qp['P('+q+')']=[round(float((Q[:,mi[m]]==q).mean()),4) for m in methods]
+qp['P(point quadrant)']=[round(float((Q[:,mi[m]]==base[mi[m]]).mean()),4) for m in methods]
+print(); print(qp.to_string(index=False))
+qp.to_csv('agpm_quadrant_probabilities.csv',index=False)
+print('written agpm_quadrant_probabilities.csv (seed',int(sys.argv[2]) if len(sys.argv)>2 else 1,')')

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "AGPM reproducibility package: anonymized ratings, analysis scripts and materials for the agility-governance gap study"
+type: dataset
+authors:
+  - family-names: "Kirpitsas"
+    given-names: "Ioannis"
+    affiliation: "Department of Informatics, Democritus University of Thrace"
+  - family-names: "Pachidis"
+    given-names: "Theodore P."
+    affiliation: "Department of Informatics, Democritus University of Thrace"
+repository-code: "https://github.com/ikirpits/AGPM"
+license: MIT
+keywords:
+  - agile
+  - governance
+  - IS audit
+  - software development methods
+  - reproducibility

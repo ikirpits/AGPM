@@ -1,40 +1,28 @@
-import numpy as np, json
+"""
+Random and extreme criterion-weight sensitivity of the AGPM results.
+
+Usage
+    python agpm_weight_sensitivity.py AGPM_dataset_anonymized.xlsx
+
+Needs: pandas, numpy, scipy, openpyxl
+
+Reads the tab Ratings_long, builds the criterion means per method (mean of the group means for
+Waterfall and Scrum, which were rated in both groups), draws 10,000 random weight sets per axis from a
+flat Dirichlet distribution (seed 2026) and reports the stability of the gap, ranking and quadrants.
+Also evaluates the 25 combinations with all weight on one criterion per axis.
+Writes agpm_weight_sensitivity_results.json next to the input file.
+"""
+import sys, json
+import numpy as np
 from scipy.stats import spearmanr, wilcoxon
-# method: (nA_ax,nB_ax,nA_g,nB_g, sumsA_a,sumsB_a,sumsA_g,sumsB_g)
-Z=[0]*5
-D={
-'ASD':(43,0,34,0,[127,162,109,153,160],Z,[70,81,81,50,59],Z),
-'AUP':(0,45,0,39,Z,[164,140,140,182,153],Z,[101,69,81,62,108]),
-'Crystal':(0,45,0,39,Z,[140,141,137,154,151],Z,[85,94,80,49,66]),
-'DAD':(0,45,0,39,Z,[161,169,175,198,156],Z,[96,130,126,123,75]),
-'DSDM':(0,45,0,39,Z,[157,158,158,145,164],Z,[133,168,138,108,125]),
-'DevOps':(43,0,34,0,[192,199,200,187,206],Z,[97,63,140,90,153],Z),
-'FDD':(0,45,0,39,Z,[148,135,164,120,137],Z,[99,122,112,53,101]),
-'KIBO':(43,0,34,0,[165,157,173,142,176],Z,[97,110,111,122,140],Z),
-'Kanban':(0,45,0,39,Z,[187,189,192,202,173],Z,[107,96,89,50,63]),
-'LeSS':(0,45,0,39,Z,[167,173,177,188,167],Z,[89,113,99,47,62]),
-'MSF':(0,45,0,39,Z,[115,120,124,113,118],Z,[143,102,148,62,119]),
-'PRINCE2 Agile':(43,0,34,0,[134,145,143,144,153],Z,[113,140,152,56,128],Z),
-'SAFe':(43,0,34,0,[162,161,166,144,169],Z,[134,148,132,147,133],Z),
-'Scrum':(43,45,34,39,[175,170,168,178,171],[172,169,175,189,175],[93,99,107,71,60],[97,130,119,82,74]),
-'Scrumban':(43,0,34,0,[144,182,160,198,148],Z,[62,54,57,45,55],Z),
-'Spiral':(43,0,34,0,[133,146,106,164,159],Z,[76,52,107,54,63],Z),
-'UP/RUP':(0,45,0,39,Z,[149,117,129,100,163],Z,[156,126,146,60,128]),
-'V-Model':(43,0,34,0,[76,81,77,99,107],Z,[106,85,112,77,79],Z),
-'Waterfall':(43,45,34,39,[59,79,55,59,76],[70,76,55,54,85],[79,86,123,54,92],[86,106,142,60,120]),
-'XP':(43,0,34,0,[169,167,177,183,181],Z,[82,96,92,48,106],Z)}
-M=sorted(D)
-def cm(nA,nB,sA,sB):
-    out=[]
-    for i in range(5):
-        p=[]
-        if nA: p.append(sA[i]/nA)
-        if nB: p.append(sB[i]/nB)
-        out.append(sum(p)/len(p))
-    return out
-A=np.array([cm(D[m][0],D[m][1],D[m][4],D[m][5]) for m in M])
-G=np.array([cm(D[m][2],D[m][3],D[m][6],D[m][7]) for m in M])
-json.dump({'M':M,'A':A.tolist(),'G':G.tolist()},open('crit.json','w'))
+from pathlib import Path
+import pandas as pd
+src = Path(sys.argv[1])
+L = pd.read_excel(src, "Ratings_long")
+cm = L.groupby(["method", "group", "criterion"]).score.mean().groupby(["method", "criterion"]).mean().unstack("criterion")
+M = sorted(cm.index)
+A = cm.loc[M, ["A1", "A2", "A3", "A4", "A5"]].to_numpy()
+G = cm.loc[M, ["G1", "G2", "G3", "G4", "G5"]].to_numpy()
 def run(w,v):
     X=A@w; Y=G@v; g=2*X*Y/(X+Y); return X,Y,g
 def quad(X,Y,t=3.0): return np.where(X>=t,np.where(Y>=t,0,1),np.where(Y>=t,2,3))
@@ -78,4 +66,4 @@ for i in range(5):
 ex=np.array([(e[0],e[1],e[3],e[4]) for e in ex]); 
 print('extreme rho min/med',ex[:,0].min(),np.median(ex[:,0]),'nq max',ex[:,1].max(),'gap range',ex[:,2].min(),ex[:,2].max(),'p max',ex[:,3].max())
 print('top by extreme:',sorted(set(e for e in [M[np.argmax(run(np.eye(5)[i],np.eye(5)[k])[2])] for i in range(5) for k in range(5)])))
-json.dump(dict(res=res,per=per,ex=[float(ex[:,0].min()),float(np.median(ex[:,0])),int(ex[:,1].max()),float(ex[:,2].min()),float(ex[:,2].max()),float(ex[:,3].max())]),open('wres.json','w'))
+json.dump(dict(res=res,per=per,ex=[float(ex[:,0].min()),float(np.median(ex[:,0])),int(ex[:,1].max()),float(ex[:,2].min()),float(ex[:,2].max()),float(ex[:,3].max())]),open(src.with_name('agpm_weight_sensitivity_results.json'),'w'))
