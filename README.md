@@ -53,7 +53,7 @@ Expected primary results: mean X 3.4109, mean Y 2.6649, mean gap -0.7459 (conven
 ## Reproducibility coverage
 
 Reproduced from this package: X, Y, GABS, ranks, quadrants, Wilcoxon and Spearman tests, panel-level and criterion-level alpha and ICC, pairwise agreement, bootstrap intervals and quadrant probabilities, split-half and leave-one-rater-out stability, random and extreme criterion weights, and the optional-element cap scenarios, median aggregation, the exclusion of G1 and G4, and the alternative quadrant thresholds.
-Still requiring the original rating workbook (Code.gs reads a private tab with emails): the comparison of the five governance-expert raters with their panels, which uses rater-level information that is not released.
+Still requiring the original rating workbook (Code.gs reads a private tab with emails): the exploratory governance-expertise comparison, which is not reproducible from the public dataset because the participant attributes needed to identify the specialist subgroup are withheld to protect confidentiality.
 The threshold stability counts of agpm_robustness.py match the manuscript (18, 18, 16 and 16 methods at 90 percent or more at 3.0, 2.75, 2.5 and 3.5). At 3.25 the script finds 15 where Code.gs gives 16, because PRINCE2 Agile lies on the 90 percent line (89.8 to 90.0 percent depending on the random generator).
 
 ## Provenance

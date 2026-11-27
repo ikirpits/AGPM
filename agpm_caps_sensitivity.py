@@ -14,11 +14,13 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else 'AGPM_dataset_anonymized.xlsx'
 CLS = sys.argv[2] if len(sys.argv) > 2 else 'instruments/AGPM_caps_classification.csv'
 L = pd.read_excel(SRC, 'Ratings_long'); C = pd.read_csv(CLS)
 cls = {(r.method, r.criterion): r.classification for r in C.itertuples()}
-# input validation: exactly one valid class for every rated method x G2..G5 cell
-assert not C.duplicated(['method', 'criterion']).any(), 'duplicate method-criterion rows in the classification file'
-assert set(C.classification) <= {'prescribed', 'optional', 'tailorable'}, 'invalid class in the classification file'
-need = set(zip(L.method, L.criterion)) ; need = {k for k in need if k[1] in ('G2', 'G3', 'G4', 'G5')}
-missing = need - set(cls); assert not missing, f'no classification for {sorted(missing)}'
+# input validation: the file must hold exactly one valid class for each rated method x G2..G5 cell, and nothing else
+if C.duplicated(['method', 'criterion']).any(): raise ValueError('duplicate method-criterion rows in the classification file')
+bad = set(C.classification) - {'prescribed', 'optional', 'tailorable'}
+if bad: raise ValueError(f'invalid class values in the classification file: {sorted(bad)}')
+need = {(m, c) for m, c in zip(L.method, L.criterion) if c in ('G2', 'G3', 'G4', 'G5')}
+if need != set(cls):
+    raise ValueError(f'classification keys differ from the rated G2-G5 cells: missing {sorted(need - set(cls))}, unexpected {sorted(set(cls) - need)}')
 SCEN = [(3, 4), (2, 4), (2, 3), (3, 3), (2, 2)]   # (optional cap, tailorable cap)
 def run(co=None, ct=None):
     d = L.copy()
