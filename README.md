@@ -7,6 +7,7 @@ Supporting material for "The agility-governance gap in software development meth
 | File | Content |
 |---|---|
 | agpm_method_results.csv | Per-method results at full precision: mean score on each of the ten criteria, X (agility), Y (governance), GABS, rank, bootstrap limits and quadrant for the 20 methods |
+| agpm_weight_sensitivity_aggregate.py | Random (10,000 Dirichlet draws, seed 2026) and extreme criterion-weight analysis from the public criterion means. Gives the same results as agpm_weight_sensitivity.py on the restricted workbook |
 | agpm_verify_aggregate.py | Recomputes X, Y and GABS from the criterion means and the headline results (mean scores, gap, exact Wilcoxon test, Spearman correlation, quadrant counts, KIBO-exclusion sensitivity, exclusion of G1 and G4) from agpm_method_results.csv, without rater-level data |
 | agpm_reproduce.py | Reproduces X, Y, GABS, quadrants, ranks, the Wilcoxon test and the X-Y Spearman correlation from the rater-level workbook (restricted, see Data access) |
 | agpm_verify.py | Independent Python bootstrap (5,000 resamples) that cross-checks the GABS, X and Y intervals and rank limits produced by Code.gs, and writes agpm_quadrant_probabilities.csv |
@@ -30,9 +31,9 @@ License: scripts under MIT (LICENSE), data and documentation under CC BY 4.0 (DA
 
 ## Data access
 
-The questionnaire consent promised that findings would be presented in summary form. For this reason the rater-level ratings (AGPM_dataset_anonymized.xlsx, including participant roles and experience) are not published in this repository. This package contains the code, the instruments and evidence cards, and all aggregate results. The rater-level workbook is available from the authors on reasonable request, subject to the consent terms and institutional approval.
+The questionnaire consent promised that findings would be presented in summary form. For this reason the rater-level ratings (AGPM_dataset_anonymized.xlsx, including participant roles and experience) are not published in this repository. This package contains the code, the instruments and evidence cards, and all aggregate results. Requests for access to the restricted rater-level workbook may be considered subject to the original consent conditions and applicable institutional requirements.
 
-Without the workbook, run `python agpm_verify_aggregate.py` to recompute the headline results from agpm_method_results.csv. Reliability, bootstrap, split-half, leave-one-rater-out and cap analyses need the rater-level workbook.
+Without the workbook, run `python agpm_verify_aggregate.py` to recompute the headline results, the KIBO exclusion and the exclusions of G1, G4 and both from agpm_method_results.csv, and `python agpm_weight_sensitivity_aggregate.py` for the random and extreme criterion weights. Reliability, bootstrap, split-half, leave-one-rater-out and cap analyses need the rater-level workbook.
 
 ## Run order
 
