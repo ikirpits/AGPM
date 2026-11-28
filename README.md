@@ -16,6 +16,7 @@ Supporting material for "The agility-governance gap in software development meth
 | agpm_robustness.py | Median aggregation, exclusion of G1 and G4, and alternative quadrant thresholds (2.75, 2.5, 3.25, 3.5) with bootstrap stability; writes agpm_robustness_scenarios.csv and agpm_threshold_stability.csv |
 | agpm_kibo_exclusion.py | Sensitivity analysis excluding KIBO (the authors' own method) from the comparative set, with the exact Wilcoxon test, the X-Y correlation, quadrant counts and ranking agreement; writes agpm_kibo_exclusion.csv |
 | agpm_kibo_exclusion.csv | Output of agpm_kibo_exclusion.py |
+| AGPM_reports_sought_full_text.csv | The 145 reports sought for full-text retrieval (133 from the first search run and 12 from the repeated search of 27 November 2026), with title, first author, year, DOI and the source database where it could be traced (17 reports could not be traced and are marked not traced) |
 | agpm_caps_scenarios.csv | Output of agpm_caps_sensitivity.py |
 | AGPM_academic_background_summary.csv | Aggregate frequencies of self-reported academic background by group (Table 5). Not in the participant tab, to limit disclosure risk |
 | Supplementary_Table_S1_criterion_level.csv | Criterion-level agreement statistics (Supplementary Table S1 of the manuscript) |
@@ -55,7 +56,7 @@ Expected primary results: mean X 3.4109, mean Y 2.6649, mean gap -0.7459 (conven
 
 ## Reproducibility coverage
 
-Literature review: the search expressions and result counts are in Appendix A of the manuscript. A record-level screening log was not retained, so none is provided.
+Literature review: the search expressions and result counts are in Appendix A of the manuscript. A record-level screening log was not retained, so none is provided. AGPM_reports_sought_full_text.csv lists the reports sought for full-text retrieval. It makes no statement about eligibility, which is reported as counts in the manuscript. Source databases were traced by matching titles against the November 2026 database exports. Two files in the first set can be the same paper in different versions, so a DOI can appear twice.
 
 Reproduced from this package: X, Y, GABS, ranks, quadrants, Wilcoxon and Spearman tests, panel-level and criterion-level alpha and ICC, pairwise agreement, bootstrap intervals and quadrant probabilities, split-half and leave-one-rater-out stability, random and extreme criterion weights, and the optional-element cap scenarios, median aggregation, the exclusion of G1 and G4, the alternative quadrant thresholds, and the exclusion of KIBO from the comparative set.
 Still requiring the original rating workbook (Code.gs reads a private tab with emails): the exploratory governance-expertise comparison, which is not reproducible from the public dataset because the participant attributes needed to identify the specialist subgroup are withheld to protect confidentiality.
