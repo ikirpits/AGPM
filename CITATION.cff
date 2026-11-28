@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this package, please cite it as below."
-title: "AGPM reproducibility package: anonymized ratings, analysis scripts and materials for the agility-governance gap study"
+title: "AGPM reproducibility package: analysis scripts, instruments and aggregate results and materials for the agility-governance gap study"
 type: dataset
 authors:
   - family-names: "Kirpitsas"
