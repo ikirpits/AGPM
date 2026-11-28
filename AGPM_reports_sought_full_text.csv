@@ -1,146 +1,146 @@
-no,search_run,title,first_author,year,doi,database_traced
-1,17 May run,RT-AIBI: A Real-Time AI-Augmented Business Intelligence Framework Leveraging Cloud Data Lakes for Agile Decision-Making,B. A. Aanand,2025,10.1109/APCIT65661.2025.11411230,IEEE Xplore
-2,17 May run,Inventory Management System for Self-Governance of a Poultry Slaughterhouse,A. Ramadhan,2023,10.1109/ICoDSA58501.2023.10276894,IEEE Xplore
-3,17 May run,Business Continuity Management Leverages on ICT Agility: Employee Self Health Declaration (ESHD),S. Devi Karuppiah,2021,10.1109/ISIEA51897.2021.9509981,IEEE Xplore
-4,17 May run,Agile Governance Guidelines for Software Development SMEs,V. Henríquez,2021,10.23919/CISTI52073.2021.9476224,IEEE Xplore
-5,17 May run,IntegracióN De Enfoques áGiles Para El Mejoramiento Continuo De Procesos De Software,E. Hernández–Agüero,2024,10.1109/CIMPS65195.2024.11095953,IEEE Xplore
-6,17 May run,A Comparative Analysis of the Agile and Traditional Software Development Processes Productivity,W. C. d. S. Carvalho,2011,10.1109/SCCC.2011.11,IEEE Xplore
-7,17 May run,Extending the Agile Development Process to Develop Acceptably Secure Software,L. b. Othmane,2014,10.1109/TDSC.2014.2298011,IEEE Xplore
-8,17 May run,Agile Process Optimization: An Approach Using the CMMI and GQM,F. Rainho,2019,10.23919/CISTI.2019.8760924,IEEE Xplore
-9,17 May run,"A Systematic Literature Review of the Application of Agile Applied to Large-Scale, Safety-Critical, Cyber-Physical Systems",R. J. Yeman,2024,10.1109/ICoDSE63307.2024.10829908,IEEE Xplore
-10,17 May run,Automate or Perish: Unleashing the Power of Devops Before it is too Late,M. Anastasov,2025,10.1109/ZINC65316.2025.11103518,IEEE Xplore
-11,17 May run,Green-Agile Maturity Model: An Evaluation Framework for Global Software Development Vendors,N. Rashid,2021,10.1109/ACCESS.2021.3079194,IEEE Xplore
-12,17 May run,Improving the Public Procurement Process in Kenya Through the Public Procurement Information Portal (PPIP) Implementation,A. Chemutai,2025,10.23919/IST-Africa67297.2025.11060549,IEEE Xplore
-13,17 May run,Agile-Transformation Organizational Development based on Portfolio Management,S. Bushuyev,2021,10.1109/IDAACS53288.2021.9660972,IEEE Xplore
-14,17 May run,A Survey on the Role of LLMs in AI-Based Software Development: Augmentation and Latent Risks,M. B. Rashid,2025,10.1109/BigData66926.2025.11401846,IEEE Xplore
-15,17 May run,Lean-Agile Transformation for HV Cable Projects,S. Ali,2025,10.1109/ISGTMiddleEast65737.2025.11314323,IEEE Xplore
-16,17 May run,Testing in an agile product development environment: An industry experience report,A. M. dos Santos,2011,10.1109/LATW.2011.5985897,IEEE Xplore
-17,17 May run,Agile methodologies applied in teaching-learning process in engineering: A case of study,S. Fernanda,2018,10.1109/EDUCON.2018.8363366,IEEE Xplore
-18,17 May run,Scrum4DO178C: An Agile Process to Enhance Aerospace Software Development for DO-178C Compliance—A Case Study at Criticality Level A,J. Eduardo Ferreira Ribeiro,2025,10.1109/ACCESS.2025.3559803,IEEE Xplore
-19,17 May run,Software Safety Analysis to Support ISO 26262-6 Compliance in Agile Development,H. Sandgren,2021,10.1109/MS.2020.3026145,IEEE Xplore
-20,17 May run,Agile Teams’ Perception in Privacy Requirements Elicitation: LGPD’s compliance in Brazil,E. D. Canedo,2021,10.1109/RE51729.2021.00013,IEEE Xplore
-21,17 May run,Agile methodology for spacecraft ground software development: A cultural shift,K. Wortman,2017,10.1109/AERO.2017.7943886,IEEE Xplore
-22,17 May run,Scaling agile on large enterprise level – systematic bundling and application of state of the art approaches for lasting agile transitions,A. Poth,2019,10.15439/2019F150,IEEE Xplore
-23,17 May run,Agile User Story Builder: Transform Real-Time User Requirement Conversations into Well-Structured Agile User Stories,S. Sathsarani,2025,10.1109/ICAC69156.2025.11361440,IEEE Xplore
-24,17 May run,Costs of compliance: agile in an inelastic organization,J. J. Cunningham,2005,10.1109/ADC.2005.18,IEEE Xplore
-25,17 May run,Agile with relation to Conflicts Theory,A. V. Chekmarev,2019,10.1109/ITQMIS.2019.8928406,IEEE Xplore
-26,17 May run,Case Study of Security Development in an Agile Environment: Building Identity Management for a Government Agency,K. Rindell,2016,10.1109/ARES.2016.45,IEEE Xplore
-27,17 May run,"A Non-invasive Approach to Trace Architecture Design, Requirements Specification and Agile Artifacts",P. O. Antonino,2014,10.1109/ASWEC.2014.30,IEEE Xplore
-28,17 May run,Development of an Integrated Tax Management System Through an Agile Framework to Optimize Ceta's Technological Infrastructure,J. E. M. Garcia,2025,10.1109/CONIITI68560.2025.11366211,IEEE Xplore
-29,17 May run,Updating CS capstone projects to incorporate new agile methodologies used in industry,D. Knudson,2011,10.1109/CSEET.2011.5876122,IEEE Xplore
-30,17 May run,A Capstone Course on Agile Software Development Using Scrum,V. Mahnic,2012,10.1109/TE.2011.2142311,IEEE Xplore
-31,17 May run,Migrating Agile Development into the Cloud Computing Environment,G. Mwansa,2014,10.1109/CLOUD.2014.113,IEEE Xplore
-32,17 May run,Formalizing agility: an agile organization's journey toward CMMI accreditation,S. W. Baker,2005,10.1109/ADC.2005.27,IEEE Xplore
-33,17 May run,CompliancePal: A Tool for Supporting Practical Agile and Regulatory-Compliant Development of Medical Software,V. Stirbu,2020,10.1109/ICSA-C50368.2020.00035,IEEE Xplore
-34,17 May run,The Current State of Security Governance and Compliance in Large-Scale Agile Development: A Systematic Literature Review and Interview Study,S. Nägele,2023,10.1109/CBI58679.2023.10187439,IEEE Xplore
-35,17 May run,Scaling agile methods to regulated environments: An industry case study,B. Fitzgerald,2013,10.1109/ICSE.2013.6606635,IEEE Xplore
-36,17 May run,Scaling agile software development through lean governance,"Ambler, Scott W.",2009,10.1109/SDG.2009.5071328,ACM; IEEE Xplore
-37,17 May run,"Agility at scale: Economic governance, measured improvement, and disciplined delivery",A. W. Brown,2013,10.1109/ICSE.2013.6606636,ACM; IEEE Xplore
-38,17 May run,Proposal and Implementation of ITIL best Practices for Incident Management at the Faculty of Computer Sciences of the Technical University of Manabí,M. del Rosario Cruz Felipe,2025,10.1109/ICECER65523.2025.11401375,IEEE Xplore
-39,17 May run,Agile Practices for the Global Teaming Model,J. Noll,2016,10.1109/ICGSEW.2016.20,IEEE Xplore
-40,17 May run,Privacy Requirements Specification in Agile Software Development : RE’2021 Tutorial,M. Peixoto,2021,10.1109/RE51729.2021.00080,IEEE Xplore
-41,17 May run,Adapting Agile Methodology in a Document-Intensive Project Management,G. C. Pamuji,2024,10.1109/INCITEST64888.2024.11121506,IEEE Xplore
-42,17 May run,IT governance program and improvements in Brazilian small business: Viability and case study,D. A. M. Aguillar,2017,10.15439/2017F410,IEEE Xplore
-43,17 May run,An Agile Compliance Framework for the European Cooperation for Space Standardization,M. K. S. Al-Mhdawi,2023,10.1109/AERO55745.2023.10115917,IEEE Xplore
-44,17 May run,"Impact of Integrating Lean, Agile, and DevOps with ITIL4 Framework for Modern IT Service Management",Y. Al-Ashmoery,2024,10.1109/ICETI63946.2024.10777262,IEEE Xplore
-45,17 May run,How Agile Are you? Discussing Maturity Levels of Agile Maturity Models,K. Vasylieva,2023,10.1109/SEAA60479.2023.00049,IEEE Xplore
-46,17 May run,Agile software development requires an agile approach for computer system validation of clinical trials software products,W. Kuchinke,2014,,IEEE Xplore
-47,17 May run,Establishing an Agile Portfolio to Align IT Investments with Business Needs,"Thomas, Joseph C.",2008,10.1109/Agile.2008.29,ACM; IEEE Xplore
-48,17 May run,Using Agile Story Points as an Estimation Technique in CMMI Organizations,A. E. D. Hamouda,2014,10.1109/AGILE.2014.11,IEEE Xplore
-49,17 May run,Definition of a Hybrid Measurement Process for the Models ISO/IEC 15504-ISO/IEC 12207:2008 and CMMI Dev 1.3 in SMEs,J. C. Ruiz,2011,10.1109/CERMA.2011.74,IEEE Xplore
-50,17 May run,Security Challenges Review in Agile and DevOps Practices,S. Afaneh,2023,10.1109/ICIT58056.2023.10226018,IEEE Xplore
-51,17 May run,Specifics of the Project Management Approach for Economics and Healthcare,J. Jech,2025,10.1109/ZINC65316.2025.11103556,IEEE Xplore
-52,17 May run,AGILE CMMI from SMEs perspective,A. Omran,2008,10.1109/ICTTA.2008.4530352,IEEE Xplore
-53,17 May run,Implementations of service oriented architecture and agile software development: What works and what are the challenges?,M. Schramm,2016,10.1109/RCIS.2016.7549345,IEEE Xplore
-54,17 May run,Embedded agile project by the numbers with newbies,N. Van Schooenderwoert,2006,10.1109/AGILE.2006.24,IEEE Xplore
-55,17 May run,Speculation of CMMI in agile methodology,S. K. Aggarwal,2014,10.1109/ICACCI.2014.6968220,IEEE Xplore
-56,17 May run,Platform-Centric Agile Transformation: Bridging Business Modularity with Federated Data Governance,W. -J. Wang,2025,10.1109/ICCBE65177.2025.11256145,IEEE Xplore
-57,17 May run,A Systematic Literature Review for the retrieving and summarizing of Security Related Issues and Risks in Agile Software Engineering Approach,S. Bibi,2025,10.1109/ICCA66035.2025.11430964,IEEE Xplore
-58,17 May run,A Reference Model for Agile Quality Assurance: Combining Agile Methodologies and Maturity Models,F. S. Silva,2014,10.1109/QUATIC.2014.25,IEEE Xplore
-59,17 May run,Security Compliance in Agile Software Development: A Systematic Mapping Study,F. Moyón,2020,10.1109/SEAA51224.2020.00073,IEEE Xplore
-60,17 May run,Scalable Data Governance Through Engineering-Driven Quality and Consistency Control,G. K. Pamula,2026,10.1109/ICAIC67076.2026.11395829,IEEE Xplore
-61,17 May run,Information Technology (IT) Governance Framework with Artificial Neural Network and Balance Scorecard to Improve the Success Rate of Software Projects,M. M. Antony Ranesh,2022,10.1109/ICECA55336.2022.10009299,IEEE Xplore
-62,17 May run,Enhancing Extreme Programming (XP) Adoption Through SAMAM: A Scalable Agile Maturity Assessment Model Based on Industry Best Practices,M. F. Abrar,2025,10.1109/ACCESS.2025.3574147,IEEE Xplore
-63,17 May run,Illusion of Agile Scaling: Large-Scale Scrum and Scaled Agile Framework Insights from Two Swedish Companies,M. O. Ahmad,2025,10.1109/MITP.2025.3620030,IEEE Xplore
-64,17 May run,Evaluating Business As Usual activities between Agile and Information Technology Infrastructure Library (A-ITIL): Industry practitioners’ point of view,A. Peliarachchi,2023,10.1109/SCSE59836.2023.10215034,IEEE Xplore
-65,17 May run,Balancing Agility and Compliance: Application of AHP Method in Game Theory for Regulatory Airborne Software Development,I. Rhouas,2025,10.1109/SITA67914.2025.11273509,IEEE Xplore
-66,17 May run,"Ahaa --agile, hybrid assessment method for automotive, safety critical smes","McCaffery, Fergal",2008,10.1145/1368088.1368164,ACM; IEEE Xplore
-67,17 May run,"Formalizing Agility, Part 2: How an Agile Organization Embraced the CMMI","Baker, Steven W.",2006,10.1109/AGILE.2006.30,ACM; IEEE Xplore
-68,17 May run,Validation of a Governance Framework Supporting Security Controls across Emerging Systems,M. Sinan,2025,10.1109/Trustcom66490.2025.00362,IEEE Xplore
-69,17 May run,Improving the Quality of Requirements Engineering Process in Software Development with Agile Methods: a Case Study Telemedicine Startup XYZ,A. S. Wibawa,2021,10.1109/ICADEIS52521.2021.9701962,IEEE Xplore
-70,17 May run,Harmonizing IT Frameworks and Agile Methods: Challenges and Solutions for the case of COBIT and Scrum,N. Ozkan,2020,10.15439/2020F47,IEEE Xplore
-71,17 May run,Standards compliance helps value creation in agile projects,Z. Bakalova,2014,10.1109/RCIS.2014.6861054,IEEE Xplore
-72,17 May run,Towards Secure Agile Software Development Process: A Practice-Based Model,A. A. Ardo,2022,10.1109/SEAA56994.2022.00031,IEEE Xplore
-73,17 May run,Stretching agile to fit CMMI level 3 - the story of creating MSF for CMMI/spl reg/ process improvement at Microsoft corporation,D. J. Anderson,2005,10.1109/ADC.2005.42,IEEE Xplore
-74,17 May run,Bluejay: A Cross-Tooling Audit Framework For Agile Software Teams,C. García,2021,10.1109/ICSE-SEET52601.2021.00038,IEEE Xplore
-75,17 May run,Lightweight Traceability for the Agile Architect,S. Gayer,2016,10.1109/MC.2016.150,IEEE Xplore
-76,17 May run,AGILEUX Model: Towards a Reference Model on Integrating UX in Developing Software Using Agile Methodologies,A. L. Peres,2014,10.1109/AGILE.2014.15,IEEE Xplore
-77,17 May run,Using Scrum for Implementing IT Governance with COBIT 5,A. C. Amorim,2018,10.1109/EDOC.2018.00033,IEEE Xplore
-78,17 May run,Organizational Type Mismatch in Agile SMEs,"Henriquez, Valeria",2023,10.1109/MITP.2023.3244409,ACM; IEEE Xplore
-79,17 May run,Towards Continuous Security Compliance in Agile Software Development at Scale,F. Moyon,2018,,IEEE Xplore
-80,17 May run,Software Development Practice for FDA-Compliant Medical Devices,W. Lin,2009,10.1109/CSO.2009.191,IEEE Xplore
-81,17 May run,Mature Agile with a Twist of CMMI,C. R. Jakobsen,2008,10.1109/Agile.2008.10,IEEE Xplore
-82,17 May run,AgileSafe - a method of introducing agile practices into safety-critical software development processes,K. Łukasiewicz,2016,,IEEE Xplore
-83,17 May run,MyBoeingFleet and Agile Software Development,J. Fecarotta,2008,10.1109/Agile.2008.72,IEEE Xplore
-84,17 May run,The Confidence of Agile Assessment Methods in the Context of Software Process Improvement,C. Santana,2011,10.1109/AGILE.2011.38,IEEE Xplore
-85,17 May run,An agile strategy for implementing CMMI project management practices in software organizations,F. Santana Furtado Soares,2015,10.1109/CISTI.2015.7170402,IEEE Xplore
-86,17 May run,"The projection of the specific practices of the third level of CMMI model in agile methods: Scrum, XP and Kanban",Z. Bougroun,2014,10.1109/CIST.2014.7016614,IEEE Xplore
-87,17 May run,Towards Agile Yet Regulatory-Compliant Development of Medical Software,V. Stirbu,2018,10.1109/ISSREW.2018.00027,IEEE Xplore
-88,17 May run,"Network Administration, and Problem Management in Community Internet Networks Through the Agile Scrum and ITIL V4 Best Practices",G. F. H. Rachez,2025,10.1109/TEMSCONLATAM65810.2025.11238955,IEEE Xplore
-89,17 May run,Software Quality Assurance Practices Towards Waterfall and Agile Information Systems Projects of BOI Registered Software Companies in Sri Lanka,A. L. C. D. Pathiraja,2024,10.1109/ICITR64794.2024.10857716,IEEE Xplore
-90,17 May run,An Agile Development Team's Quest for CMMI® Maturity Level 5,S. Cohan,2009,10.1109/AGILE.2009.24,IEEE Xplore
-91,17 May run,The Evolution of Agile and Hybrid Project Management Methodologies: A Systematic Literature Review,"Leech, Bianca",2026,10.1145/3779657.3779696,ACM; Scopus
-92,17 May run,The Security Intention Meeting Series as a way to increase visibility of software security decisions in agile development projects,"T{\o}ndel, Inger Anne",2019,10.1145/3339252.3340337,ACM
-93,17 May run,A Computer-Aided Intelligent Evaluation Model for Accounting Data Quality Improvement in Data Governance: Algorithms and Case Studies,"Huang, Xiaochen",2025,10.1145/3762249.3762293,ACM
-94,17 May run,Towards a framework for understanding the relationships between classical software engineering and agile methodologies,"Jiang, Li",2008,10.1145/1370143.1370146,ACM
-95,17 May run,Web accessibility testing for Singapore government e-services,"Lim, Zui Young",2020,10.1145/3371300.3383353,ACM
-96,17 May run,"Ahaa --agile, hybrid assessment method for automotive, safety critical smes","McCaffery, Fergal",2008,10.1145/1368088.1368164,ACM; IEEE Xplore
-97,17 May run,Examining the Collaboration Framework for Achieving Government Performance: A Qualitative Case Study on Digital Transformation.,"Mian, Aris Suhada",2025,10.1145/3734696,ACM
-98,17 May run,Agile Transformation Challenges and Solutions in Bureaucratic Government: A Systematic Literature Review,"Dwi Harfianto, Hendy",2022,10.1145/3512676.3512679,ACM
-99,17 May run,Hybrid Agile-Waterfall Methodology for Philippine Public Sector Procurement Planning System,"Gamido, Marlon Viray",2026,10.1145/3789418.3789438,ACM
-100,17 May run,"Agility at scale: Economic governance, measured improvement, and disciplined delivery",A. W. Brown,2013,10.1109/ICSE.2013.6606636,ACM; IEEE Xplore
-101,17 May run,Software development governance (SDG): report on 2nd workshop,"Dubinsky, Yael",2009,10.1145/1598732.1598760,ACM
-102,17 May run,Scaling agile software development through lean governance,"Ambler, Scott W.",2009,10.1109/SDG.2009.5071328,ACM; IEEE Xplore
-103,17 May run,Pair programming and agile software development: experiences in a college setting,"Sherrell, Linda B.",2006,,ACM
-104,17 May run,Controlling and monitoring agile software development in three dutch product software companies,"Cheng, Tjan-Hien",2009,10.1109/SDG.2009.5071334,ACM
-105,17 May run,Agile Project Management in Large Scale Digital Transformation Projects in Government and Public Sector: a Case Study of DILRMP Project,"Nerurkar, Amrutaunshu",2017,10.1145/3047273.3047355,ACM
-106,17 May run,Agile development,,,,not traced
-107,17 May run,Agile policy development for digital government: an exploratory case study,"Parcell, Jacob",2013,10.1145/2479724.2479731,ACM
-108,17 May run,A replicated study on correlating agile team velocity measured in function and story points,"Huijgens, Hennie",2014,10.1145/2593868.2593874,ACM
-109,17 May run,Governance of an agile software project,"Talby, David",2009,10.1109/SDG.2009.5071336,ACM
-110,17 May run,Agile system development methodologies usage and acceptance in South African banking firms: an exploratory analysis,"Mudarikwa, Grace",2018,10.1145/3278681.3278711,ACM
-111,17 May run,Large-Scale Offshore Agile Tailoring: Exploring Product and Service Organisations,"Bass, Julian M.",2016,10.1145/2962695.2962703,ACM
-112,17 May run,Analysis of DILRMP Project: Identifying the Applicability of Agile Project Management for Digital Transformation Projects in Government and Public Sector,"Nerurkar, Amrutaunshu",2017,10.1145/3055219.3055242,ACM
-113,17 May run,Software Processes and Life Cycle Models An Introduction to Modelling Using and Managing Agile PlanDriven and Hybrid Processes,,2018,,not traced
-114,17 May run,Agile governance theory operationalization,,2020,,not traced
-115,17 May run,The EFIS Framework for Leveraging Agile Organizations Within Large Enterprises,,2021,,not traced
-116,17 May run,Managing agile Strategy implementation organisation and people,,2015,,not traced
-117,17 May run,Scalable Agile Framework for Execution in AI for Medical AI Ethics Policy Design in Small- and Medium-Sized Enterprises,Nemteanu I.,2026,10.2196/80028,Scopus
-118,17 May run,Reconciling agile frameworks with IT sourcing through an IT sourcing dimensions map and structured decisionmaking,,2021,,not traced
-119,17 May run,Defining an integrated agile governance for large agile software development environments,"Qumer, Asif",2007,,ACM
-120,17 May run,Agile Software Development at Scale,"Ambler, Scott W.",2008,,ACM
-121,17 May run,Integration testing prior to unit testing A paradigm shift in object oriented software testing of agile software engineering,,,,not traced
-122,17 May run,A systematic literature review of agile and maturity model research,,,,not traced
-123,17 May run,An Agile and Collaborative Framework for Effective Governance to Enhance Management in LargeScale Enterprise Business Systems The Case of Apple Inc,,,,not traced
-124,17 May run,Towards agility in IT governance frameworks,,2018,,not traced
-125,17 May run,Identifying the constructs and agile capabilities of data governance and data management A review of the literature,,2019,,not traced
-126,17 May run,MAISTRO Towards an Agile Methodology for AI System Development Projects,,2025,,not traced
-127,17 May run,Hybrid Fuzzy MCDM for Process-Aware Optimization of Agile Scaling in Industrial Software Projects,Atoum I.,2026,10.3390/pr14020232,Scopus
-128,17 May run,Development of Risk Controlling Mechanism and Tools for Agile Projects in Telecommunications,"Grishunin, Sergei",2020,10.1007/978-3-030-65729-1_23,ACM
-129,17 May run,Analytical evaluation of agile success factors influencing quality in software industry,,2020,,not traced
-130,17 May run,Investigating the Current State of Security in Large Scale Agile Development,,2022,,not traced
-131,17 May run,CORREC~1.PDF,,,,not traced
-132,17 May run,DataDriven Development in Public Sector How Agile Product Teams Maneuver Data Privacy Regulations,,2023,,not traced
-133,17 May run,ClosedLoop Agile Development Delivers Efficiency and Compliance in Industry 40 in the Regulated Sector,,2023,,not traced
-134,27 Nov run,Empirical Investigation of Practitioners’ Perception of Agile Methodologies in Software Projects in Public Sector,"Bashir, A.",2026,10.1007/978-3-032-30942-6_24,Scopus
-135,27 Nov run,Lean–Agile Product Development in FDA Relevant and Regulated Medical Device Contexts,"Bello, A.A.",2026,10.1007/s43441-026-01048-1,Scopus
-136,27 Nov run,A Hybrid Project Management Framework for Large-Scale ERP Implementations: Design and Empirical Validation,"Masud, S.M.",2026,10.1145/3801619.3801645,ACM; Scopus
-137,27 Nov run,Unified Agile Governance Framework (UAGF): Bridging Agile Practice Gaps in Distributed Software Teams,"Masud, S.M.",2026,10.1145/3801619.3801677,ACM
-138,27 Nov run,"A Hybrid Framework for Agile Discovery: Contextualizing PMBOK, Scrum, and Lean Practices in Digital Product Fi","Portella-Alamo, J.R.",2025,10.1109/BCC63751.2025.11725542,IEEE Xplore
-139,27 Nov run,A DMAIC-Based Engineering Method for Agile–Lean Tailoring in DO-178C Software Verification,"Rhouas, I.",2026,10.1109/ACCESS.2026.3729359,Scopus; IEEE Xplore
-140,27 Nov run,Security-Integrated DevOps: A Multidimensional Analysis of Models and Challenges,"Yarava, A.R.",2026,10.1109/ICIICS67880.2026.11483403,IEEE Xplore
-141,27 Nov run,Using PRINCE2 in the Development of Financial Monitoring Systems,"Yessengeldina, A.",2026,10.1109/ICCSDFAI70505.2026.11648026,IEEE Xplore
-142,27 Nov run,A Framework for Early Cyber Risk Assessment in Agile IT Development Initiatives Within the Chilean Financial Sector,"Vázquez, J.N.",2026,10.1007/978-3-032-42785-4_33,Scopus
-143,27 Nov run,Policy-Driven Shift-Left Security for Hybrid OpenShift CI/CD Pipelines,"Jaiswal, N.",2026,10.1109/ICAISET66439.2026.11541712,Scopus
-144,27 Nov run,Agile Transformation In Large Healthcare IT Programs,"Muthuramalingam, S.",2026,10.51483/IJAIML.6.6s.2026.86-93,Scopus
-145,27 Nov run,Hybrid methodologies in the new space era: A new frontier for space project management in Mexico,"Contreras Lima, S.",2026,10.1016/j.jsse.2026.08.008,Scopus
+no,search_run,title,first_author,year,doi,database_traced,same_paper_as_no
+1,17 May run,RT-AIBI: A Real-Time AI-Augmented Business Intelligence Framework Leveraging Cloud Data Lakes for Agile Decision-Making,B. A. Aanand,2025,10.1109/APCIT65661.2025.11411230,IEEE Xplore,
+2,17 May run,Inventory Management System for Self-Governance of a Poultry Slaughterhouse,A. Ramadhan,2023,10.1109/ICoDSA58501.2023.10276894,IEEE Xplore,
+3,17 May run,Business Continuity Management Leverages on ICT Agility: Employee Self Health Declaration (ESHD),S. Devi Karuppiah,2021,10.1109/ISIEA51897.2021.9509981,IEEE Xplore,
+4,17 May run,Agile Governance Guidelines for Software Development SMEs,V. Henríquez,2021,10.23919/CISTI52073.2021.9476224,IEEE Xplore,
+5,17 May run,IntegracióN De Enfoques áGiles Para El Mejoramiento Continuo De Procesos De Software,E. Hernández–Agüero,2024,10.1109/CIMPS65195.2024.11095953,IEEE Xplore,
+6,17 May run,A Comparative Analysis of the Agile and Traditional Software Development Processes Productivity,W. C. d. S. Carvalho,2011,10.1109/SCCC.2011.11,IEEE Xplore,
+7,17 May run,Extending the Agile Development Process to Develop Acceptably Secure Software,L. b. Othmane,2014,10.1109/TDSC.2014.2298011,IEEE Xplore,
+8,17 May run,Agile Process Optimization: An Approach Using the CMMI and GQM,F. Rainho,2019,10.23919/CISTI.2019.8760924,IEEE Xplore,
+9,17 May run,"A Systematic Literature Review of the Application of Agile Applied to Large-Scale, Safety-Critical, Cyber-Physical Systems",R. J. Yeman,2024,10.1109/ICoDSE63307.2024.10829908,IEEE Xplore,
+10,17 May run,Automate or Perish: Unleashing the Power of Devops Before it is too Late,M. Anastasov,2025,10.1109/ZINC65316.2025.11103518,IEEE Xplore,
+11,17 May run,Green-Agile Maturity Model: An Evaluation Framework for Global Software Development Vendors,N. Rashid,2021,10.1109/ACCESS.2021.3079194,IEEE Xplore,
+12,17 May run,Improving the Public Procurement Process in Kenya Through the Public Procurement Information Portal (PPIP) Implementation,A. Chemutai,2025,10.23919/IST-Africa67297.2025.11060549,IEEE Xplore,
+13,17 May run,Agile-Transformation Organizational Development based on Portfolio Management,S. Bushuyev,2021,10.1109/IDAACS53288.2021.9660972,IEEE Xplore,
+14,17 May run,A Survey on the Role of LLMs in AI-Based Software Development: Augmentation and Latent Risks,M. B. Rashid,2025,10.1109/BigData66926.2025.11401846,IEEE Xplore,
+15,17 May run,Lean-Agile Transformation for HV Cable Projects,S. Ali,2025,10.1109/ISGTMiddleEast65737.2025.11314323,IEEE Xplore,
+16,17 May run,Testing in an agile product development environment: An industry experience report,A. M. dos Santos,2011,10.1109/LATW.2011.5985897,IEEE Xplore,
+17,17 May run,Agile methodologies applied in teaching-learning process in engineering: A case of study,S. Fernanda,2018,10.1109/EDUCON.2018.8363366,IEEE Xplore,
+18,17 May run,Scrum4DO178C: An Agile Process to Enhance Aerospace Software Development for DO-178C Compliance—A Case Study at Criticality Level A,J. Eduardo Ferreira Ribeiro,2025,10.1109/ACCESS.2025.3559803,IEEE Xplore,
+19,17 May run,Software Safety Analysis to Support ISO 26262-6 Compliance in Agile Development,H. Sandgren,2021,10.1109/MS.2020.3026145,IEEE Xplore,
+20,17 May run,Agile Teams’ Perception in Privacy Requirements Elicitation: LGPD’s compliance in Brazil,E. D. Canedo,2021,10.1109/RE51729.2021.00013,IEEE Xplore,
+21,17 May run,Agile methodology for spacecraft ground software development: A cultural shift,K. Wortman,2017,10.1109/AERO.2017.7943886,IEEE Xplore,
+22,17 May run,Scaling agile on large enterprise level – systematic bundling and application of state of the art approaches for lasting agile transitions,A. Poth,2019,10.15439/2019F150,IEEE Xplore,
+23,17 May run,Agile User Story Builder: Transform Real-Time User Requirement Conversations into Well-Structured Agile User Stories,S. Sathsarani,2025,10.1109/ICAC69156.2025.11361440,IEEE Xplore,
+24,17 May run,Costs of compliance: agile in an inelastic organization,J. J. Cunningham,2005,10.1109/ADC.2005.18,IEEE Xplore,
+25,17 May run,Agile with relation to Conflicts Theory,A. V. Chekmarev,2019,10.1109/ITQMIS.2019.8928406,IEEE Xplore,
+26,17 May run,Case Study of Security Development in an Agile Environment: Building Identity Management for a Government Agency,K. Rindell,2016,10.1109/ARES.2016.45,IEEE Xplore,
+27,17 May run,"A Non-invasive Approach to Trace Architecture Design, Requirements Specification and Agile Artifacts",P. O. Antonino,2014,10.1109/ASWEC.2014.30,IEEE Xplore,
+28,17 May run,Development of an Integrated Tax Management System Through an Agile Framework to Optimize Ceta's Technological Infrastructure,J. E. M. Garcia,2025,10.1109/CONIITI68560.2025.11366211,IEEE Xplore,
+29,17 May run,Updating CS capstone projects to incorporate new agile methodologies used in industry,D. Knudson,2011,10.1109/CSEET.2011.5876122,IEEE Xplore,
+30,17 May run,A Capstone Course on Agile Software Development Using Scrum,V. Mahnic,2012,10.1109/TE.2011.2142311,IEEE Xplore,
+31,17 May run,Migrating Agile Development into the Cloud Computing Environment,G. Mwansa,2014,10.1109/CLOUD.2014.113,IEEE Xplore,
+32,17 May run,Formalizing agility: an agile organization's journey toward CMMI accreditation,S. W. Baker,2005,10.1109/ADC.2005.27,IEEE Xplore,
+33,17 May run,CompliancePal: A Tool for Supporting Practical Agile and Regulatory-Compliant Development of Medical Software,V. Stirbu,2020,10.1109/ICSA-C50368.2020.00035,IEEE Xplore,
+34,17 May run,The Current State of Security Governance and Compliance in Large-Scale Agile Development: A Systematic Literature Review and Interview Study,S. Nägele,2023,10.1109/CBI58679.2023.10187439,IEEE Xplore,
+35,17 May run,Scaling agile methods to regulated environments: An industry case study,B. Fitzgerald,2013,10.1109/ICSE.2013.6606635,IEEE Xplore,
+36,17 May run,Scaling agile software development through lean governance,"Ambler, Scott W.",2009,10.1109/SDG.2009.5071328,ACM; IEEE Xplore,102
+37,17 May run,"Agility at scale: Economic governance, measured improvement, and disciplined delivery",A. W. Brown,2013,10.1109/ICSE.2013.6606636,ACM; IEEE Xplore,100
+38,17 May run,Proposal and Implementation of ITIL best Practices for Incident Management at the Faculty of Computer Sciences of the Technical University of Manabí,M. del Rosario Cruz Felipe,2025,10.1109/ICECER65523.2025.11401375,IEEE Xplore,
+39,17 May run,Agile Practices for the Global Teaming Model,J. Noll,2016,10.1109/ICGSEW.2016.20,IEEE Xplore,
+40,17 May run,Privacy Requirements Specification in Agile Software Development : RE’2021 Tutorial,M. Peixoto,2021,10.1109/RE51729.2021.00080,IEEE Xplore,
+41,17 May run,Adapting Agile Methodology in a Document-Intensive Project Management,G. C. Pamuji,2024,10.1109/INCITEST64888.2024.11121506,IEEE Xplore,
+42,17 May run,IT governance program and improvements in Brazilian small business: Viability and case study,D. A. M. Aguillar,2017,10.15439/2017F410,IEEE Xplore,
+43,17 May run,An Agile Compliance Framework for the European Cooperation for Space Standardization,M. K. S. Al-Mhdawi,2023,10.1109/AERO55745.2023.10115917,IEEE Xplore,
+44,17 May run,"Impact of Integrating Lean, Agile, and DevOps with ITIL4 Framework for Modern IT Service Management",Y. Al-Ashmoery,2024,10.1109/ICETI63946.2024.10777262,IEEE Xplore,
+45,17 May run,How Agile Are you? Discussing Maturity Levels of Agile Maturity Models,K. Vasylieva,2023,10.1109/SEAA60479.2023.00049,IEEE Xplore,
+46,17 May run,Agile software development requires an agile approach for computer system validation of clinical trials software products,W. Kuchinke,2014,,IEEE Xplore,
+47,17 May run,Establishing an Agile Portfolio to Align IT Investments with Business Needs,"Thomas, Joseph C.",2008,10.1109/Agile.2008.29,ACM; IEEE Xplore,
+48,17 May run,Using Agile Story Points as an Estimation Technique in CMMI Organizations,A. E. D. Hamouda,2014,10.1109/AGILE.2014.11,IEEE Xplore,
+49,17 May run,Definition of a Hybrid Measurement Process for the Models ISO/IEC 15504-ISO/IEC 12207:2008 and CMMI Dev 1.3 in SMEs,J. C. Ruiz,2011,10.1109/CERMA.2011.74,IEEE Xplore,
+50,17 May run,Security Challenges Review in Agile and DevOps Practices,S. Afaneh,2023,10.1109/ICIT58056.2023.10226018,IEEE Xplore,
+51,17 May run,Specifics of the Project Management Approach for Economics and Healthcare,J. Jech,2025,10.1109/ZINC65316.2025.11103556,IEEE Xplore,
+52,17 May run,AGILE CMMI from SMEs perspective,A. Omran,2008,10.1109/ICTTA.2008.4530352,IEEE Xplore,
+53,17 May run,Implementations of service oriented architecture and agile software development: What works and what are the challenges?,M. Schramm,2016,10.1109/RCIS.2016.7549345,IEEE Xplore,
+54,17 May run,Embedded agile project by the numbers with newbies,N. Van Schooenderwoert,2006,10.1109/AGILE.2006.24,IEEE Xplore,
+55,17 May run,Speculation of CMMI in agile methodology,S. K. Aggarwal,2014,10.1109/ICACCI.2014.6968220,IEEE Xplore,
+56,17 May run,Platform-Centric Agile Transformation: Bridging Business Modularity with Federated Data Governance,W. -J. Wang,2025,10.1109/ICCBE65177.2025.11256145,IEEE Xplore,
+57,17 May run,A Systematic Literature Review for the retrieving and summarizing of Security Related Issues and Risks in Agile Software Engineering Approach,S. Bibi,2025,10.1109/ICCA66035.2025.11430964,IEEE Xplore,
+58,17 May run,A Reference Model for Agile Quality Assurance: Combining Agile Methodologies and Maturity Models,F. S. Silva,2014,10.1109/QUATIC.2014.25,IEEE Xplore,
+59,17 May run,Security Compliance in Agile Software Development: A Systematic Mapping Study,F. Moyón,2020,10.1109/SEAA51224.2020.00073,IEEE Xplore,
+60,17 May run,Scalable Data Governance Through Engineering-Driven Quality and Consistency Control,G. K. Pamula,2026,10.1109/ICAIC67076.2026.11395829,IEEE Xplore,
+61,17 May run,Information Technology (IT) Governance Framework with Artificial Neural Network and Balance Scorecard to Improve the Success Rate of Software Projects,M. M. Antony Ranesh,2022,10.1109/ICECA55336.2022.10009299,IEEE Xplore,
+62,17 May run,Enhancing Extreme Programming (XP) Adoption Through SAMAM: A Scalable Agile Maturity Assessment Model Based on Industry Best Practices,M. F. Abrar,2025,10.1109/ACCESS.2025.3574147,IEEE Xplore,
+63,17 May run,Illusion of Agile Scaling: Large-Scale Scrum and Scaled Agile Framework Insights from Two Swedish Companies,M. O. Ahmad,2025,10.1109/MITP.2025.3620030,IEEE Xplore,
+64,17 May run,Evaluating Business As Usual activities between Agile and Information Technology Infrastructure Library (A-ITIL): Industry practitioners’ point of view,A. Peliarachchi,2023,10.1109/SCSE59836.2023.10215034,IEEE Xplore,
+65,17 May run,Balancing Agility and Compliance: Application of AHP Method in Game Theory for Regulatory Airborne Software Development,I. Rhouas,2025,10.1109/SITA67914.2025.11273509,IEEE Xplore,
+66,17 May run,"Ahaa --agile, hybrid assessment method for automotive, safety critical smes","McCaffery, Fergal",2008,10.1145/1368088.1368164,ACM; IEEE Xplore,96
+67,17 May run,"Formalizing Agility, Part 2: How an Agile Organization Embraced the CMMI","Baker, Steven W.",2006,10.1109/AGILE.2006.30,ACM; IEEE Xplore,
+68,17 May run,Validation of a Governance Framework Supporting Security Controls across Emerging Systems,M. Sinan,2025,10.1109/Trustcom66490.2025.00362,IEEE Xplore,
+69,17 May run,Improving the Quality of Requirements Engineering Process in Software Development with Agile Methods: a Case Study Telemedicine Startup XYZ,A. S. Wibawa,2021,10.1109/ICADEIS52521.2021.9701962,IEEE Xplore,
+70,17 May run,Harmonizing IT Frameworks and Agile Methods: Challenges and Solutions for the case of COBIT and Scrum,N. Ozkan,2020,10.15439/2020F47,IEEE Xplore,
+71,17 May run,Standards compliance helps value creation in agile projects,Z. Bakalova,2014,10.1109/RCIS.2014.6861054,IEEE Xplore,
+72,17 May run,Towards Secure Agile Software Development Process: A Practice-Based Model,A. A. Ardo,2022,10.1109/SEAA56994.2022.00031,IEEE Xplore,
+73,17 May run,Stretching agile to fit CMMI level 3 - the story of creating MSF for CMMI/spl reg/ process improvement at Microsoft corporation,D. J. Anderson,2005,10.1109/ADC.2005.42,IEEE Xplore,
+74,17 May run,Bluejay: A Cross-Tooling Audit Framework For Agile Software Teams,C. García,2021,10.1109/ICSE-SEET52601.2021.00038,IEEE Xplore,
+75,17 May run,Lightweight Traceability for the Agile Architect,S. Gayer,2016,10.1109/MC.2016.150,IEEE Xplore,
+76,17 May run,AGILEUX Model: Towards a Reference Model on Integrating UX in Developing Software Using Agile Methodologies,A. L. Peres,2014,10.1109/AGILE.2014.15,IEEE Xplore,
+77,17 May run,Using Scrum for Implementing IT Governance with COBIT 5,A. C. Amorim,2018,10.1109/EDOC.2018.00033,IEEE Xplore,
+78,17 May run,Organizational Type Mismatch in Agile SMEs,"Henriquez, Valeria",2023,10.1109/MITP.2023.3244409,ACM; IEEE Xplore,
+79,17 May run,Towards Continuous Security Compliance in Agile Software Development at Scale,F. Moyon,2018,,IEEE Xplore,
+80,17 May run,Software Development Practice for FDA-Compliant Medical Devices,W. Lin,2009,10.1109/CSO.2009.191,IEEE Xplore,
+81,17 May run,Mature Agile with a Twist of CMMI,C. R. Jakobsen,2008,10.1109/Agile.2008.10,IEEE Xplore,
+82,17 May run,AgileSafe - a method of introducing agile practices into safety-critical software development processes,K. Łukasiewicz,2016,,IEEE Xplore,
+83,17 May run,MyBoeingFleet and Agile Software Development,J. Fecarotta,2008,10.1109/Agile.2008.72,IEEE Xplore,
+84,17 May run,The Confidence of Agile Assessment Methods in the Context of Software Process Improvement,C. Santana,2011,10.1109/AGILE.2011.38,IEEE Xplore,
+85,17 May run,An agile strategy for implementing CMMI project management practices in software organizations,F. Santana Furtado Soares,2015,10.1109/CISTI.2015.7170402,IEEE Xplore,
+86,17 May run,"The projection of the specific practices of the third level of CMMI model in agile methods: Scrum, XP and Kanban",Z. Bougroun,2014,10.1109/CIST.2014.7016614,IEEE Xplore,
+87,17 May run,Towards Agile Yet Regulatory-Compliant Development of Medical Software,V. Stirbu,2018,10.1109/ISSREW.2018.00027,IEEE Xplore,
+88,17 May run,"Network Administration, and Problem Management in Community Internet Networks Through the Agile Scrum and ITIL V4 Best Practices",G. F. H. Rachez,2025,10.1109/TEMSCONLATAM65810.2025.11238955,IEEE Xplore,
+89,17 May run,Software Quality Assurance Practices Towards Waterfall and Agile Information Systems Projects of BOI Registered Software Companies in Sri Lanka,A. L. C. D. Pathiraja,2024,10.1109/ICITR64794.2024.10857716,IEEE Xplore,
+90,17 May run,An Agile Development Team's Quest for CMMI® Maturity Level 5,S. Cohan,2009,10.1109/AGILE.2009.24,IEEE Xplore,
+91,17 May run,The Evolution of Agile and Hybrid Project Management Methodologies: A Systematic Literature Review,"Leech, Bianca",2026,10.1145/3779657.3779696,ACM; Scopus,
+92,17 May run,The Security Intention Meeting Series as a way to increase visibility of software security decisions in agile development projects,"T{\o}ndel, Inger Anne",2019,10.1145/3339252.3340337,ACM,
+93,17 May run,A Computer-Aided Intelligent Evaluation Model for Accounting Data Quality Improvement in Data Governance: Algorithms and Case Studies,"Huang, Xiaochen",2025,10.1145/3762249.3762293,ACM,
+94,17 May run,Towards a framework for understanding the relationships between classical software engineering and agile methodologies,"Jiang, Li",2008,10.1145/1370143.1370146,ACM,
+95,17 May run,Web accessibility testing for Singapore government e-services,"Lim, Zui Young",2020,10.1145/3371300.3383353,ACM,
+96,17 May run,"Ahaa --agile, hybrid assessment method for automotive, safety critical smes","McCaffery, Fergal",2008,10.1145/1368088.1368164,ACM; IEEE Xplore,66
+97,17 May run,Examining the Collaboration Framework for Achieving Government Performance: A Qualitative Case Study on Digital Transformation.,"Mian, Aris Suhada",2025,10.1145/3734696,ACM,
+98,17 May run,Agile Transformation Challenges and Solutions in Bureaucratic Government: A Systematic Literature Review,"Dwi Harfianto, Hendy",2022,10.1145/3512676.3512679,ACM,
+99,17 May run,Hybrid Agile-Waterfall Methodology for Philippine Public Sector Procurement Planning System,"Gamido, Marlon Viray",2026,10.1145/3789418.3789438,ACM,
+100,17 May run,"Agility at scale: Economic governance, measured improvement, and disciplined delivery",A. W. Brown,2013,10.1109/ICSE.2013.6606636,ACM; IEEE Xplore,37
+101,17 May run,Software development governance (SDG): report on 2nd workshop,"Dubinsky, Yael",2009,10.1145/1598732.1598760,ACM,
+102,17 May run,Scaling agile software development through lean governance,"Ambler, Scott W.",2009,10.1109/SDG.2009.5071328,ACM; IEEE Xplore,36
+103,17 May run,Pair programming and agile software development: experiences in a college setting,"Sherrell, Linda B.",2006,,ACM,
+104,17 May run,Controlling and monitoring agile software development in three dutch product software companies,"Cheng, Tjan-Hien",2009,10.1109/SDG.2009.5071334,ACM,
+105,17 May run,Agile Project Management in Large Scale Digital Transformation Projects in Government and Public Sector: a Case Study of DILRMP Project,"Nerurkar, Amrutaunshu",2017,10.1145/3047273.3047355,ACM,
+106,17 May run,Agile development,,,,not traced,
+107,17 May run,Agile policy development for digital government: an exploratory case study,"Parcell, Jacob",2013,10.1145/2479724.2479731,ACM,
+108,17 May run,A replicated study on correlating agile team velocity measured in function and story points,"Huijgens, Hennie",2014,10.1145/2593868.2593874,ACM,
+109,17 May run,Governance of an agile software project,"Talby, David",2009,10.1109/SDG.2009.5071336,ACM,
+110,17 May run,Agile system development methodologies usage and acceptance in South African banking firms: an exploratory analysis,"Mudarikwa, Grace",2018,10.1145/3278681.3278711,ACM,
+111,17 May run,Large-Scale Offshore Agile Tailoring: Exploring Product and Service Organisations,"Bass, Julian M.",2016,10.1145/2962695.2962703,ACM,
+112,17 May run,Analysis of DILRMP Project: Identifying the Applicability of Agile Project Management for Digital Transformation Projects in Government and Public Sector,"Nerurkar, Amrutaunshu",2017,10.1145/3055219.3055242,ACM,
+113,17 May run,Software Processes and Life Cycle Models An Introduction to Modelling Using and Managing Agile PlanDriven and Hybrid Processes,,2018,,not traced,
+114,17 May run,Agile governance theory operationalization,,2020,,not traced,
+115,17 May run,The EFIS Framework for Leveraging Agile Organizations Within Large Enterprises,,2021,,not traced,
+116,17 May run,Managing agile Strategy implementation organisation and people,,2015,,not traced,
+117,17 May run,Scalable Agile Framework for Execution in AI for Medical AI Ethics Policy Design in Small- and Medium-Sized Enterprises,Nemteanu I.,2026,10.2196/80028,Scopus,
+118,17 May run,Reconciling agile frameworks with IT sourcing through an IT sourcing dimensions map and structured decisionmaking,,2021,,not traced,
+119,17 May run,Defining an integrated agile governance for large agile software development environments,"Qumer, Asif",2007,,ACM,
+120,17 May run,Agile Software Development at Scale,"Ambler, Scott W.",2008,,ACM,
+121,17 May run,Integration testing prior to unit testing A paradigm shift in object oriented software testing of agile software engineering,,,,not traced,
+122,17 May run,A systematic literature review of agile and maturity model research,,,,not traced,
+123,17 May run,An Agile and Collaborative Framework for Effective Governance to Enhance Management in LargeScale Enterprise Business Systems The Case of Apple Inc,,,,not traced,
+124,17 May run,Towards agility in IT governance frameworks,,2018,,not traced,
+125,17 May run,Identifying the constructs and agile capabilities of data governance and data management A review of the literature,,2019,,not traced,
+126,17 May run,MAISTRO Towards an Agile Methodology for AI System Development Projects,,2025,,not traced,
+127,17 May run,Hybrid Fuzzy MCDM for Process-Aware Optimization of Agile Scaling in Industrial Software Projects,Atoum I.,2026,10.3390/pr14020232,Scopus,
+128,17 May run,Development of Risk Controlling Mechanism and Tools for Agile Projects in Telecommunications,"Grishunin, Sergei",2020,10.1007/978-3-030-65729-1_23,ACM,
+129,17 May run,Analytical evaluation of agile success factors influencing quality in software industry,,2020,,not traced,
+130,17 May run,Investigating the Current State of Security in Large Scale Agile Development,,2022,,not traced,
+131,17 May run,CORREC~1.PDF,,,,not traced,
+132,17 May run,DataDriven Development in Public Sector How Agile Product Teams Maneuver Data Privacy Regulations,,2023,,not traced,
+133,17 May run,ClosedLoop Agile Development Delivers Efficiency and Compliance in Industry 40 in the Regulated Sector,,2023,,not traced,
+134,27 Nov run,Empirical Investigation of Practitioners’ Perception of Agile Methodologies in Software Projects in Public Sector,"Bashir, A.",2026,10.1007/978-3-032-30942-6_24,Scopus,
+135,27 Nov run,Lean–Agile Product Development in FDA Relevant and Regulated Medical Device Contexts,"Bello, A.A.",2026,10.1007/s43441-026-01048-1,Scopus,
+136,27 Nov run,A Hybrid Project Management Framework for Large-Scale ERP Implementations: Design and Empirical Validation,"Masud, S.M.",2026,10.1145/3801619.3801645,ACM; Scopus,
+137,27 Nov run,Unified Agile Governance Framework (UAGF): Bridging Agile Practice Gaps in Distributed Software Teams,"Masud, S.M.",2026,10.1145/3801619.3801677,ACM,
+138,27 Nov run,"A Hybrid Framework for Agile Discovery: Contextualizing PMBOK, Scrum, and Lean Practices in Digital Product Fi","Portella-Alamo, J.R.",2025,10.1109/BCC63751.2025.11725542,IEEE Xplore,
+139,27 Nov run,A DMAIC-Based Engineering Method for Agile–Lean Tailoring in DO-178C Software Verification,"Rhouas, I.",2026,10.1109/ACCESS.2026.3729359,Scopus; IEEE Xplore,
+140,27 Nov run,Security-Integrated DevOps: A Multidimensional Analysis of Models and Challenges,"Yarava, A.R.",2026,10.1109/ICIICS67880.2026.11483403,IEEE Xplore,
+141,27 Nov run,Using PRINCE2 in the Development of Financial Monitoring Systems,"Yessengeldina, A.",2026,10.1109/ICCSDFAI70505.2026.11648026,IEEE Xplore,
+142,27 Nov run,A Framework for Early Cyber Risk Assessment in Agile IT Development Initiatives Within the Chilean Financial Sector,"Vázquez, J.N.",2026,10.1007/978-3-032-42785-4_33,Scopus,
+143,27 Nov run,Policy-Driven Shift-Left Security for Hybrid OpenShift CI/CD Pipelines,"Jaiswal, N.",2026,10.1109/ICAISET66439.2026.11541712,Scopus,
+144,27 Nov run,Agile Transformation In Large Healthcare IT Programs,"Muthuramalingam, S.",2026,10.51483/IJAIML.6.6s.2026.86-93,Scopus,
+145,27 Nov run,Hybrid methodologies in the new space era: A new frontier for space project management in Mexico,"Contreras Lima, S.",2026,10.1016/j.jsse.2026.08.008,Scopus,
